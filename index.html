@@ -9,13 +9,53 @@
     <link rel="stylesheet" href="./src/style.css">
 </head>
 
-<body>
-    <main
-        class="w-full min-h-screen bg-gradient-to-r from-fuchsia-500 to-cyan-500 flex items-center justify-center">
-        <h1 class="font-mono font-bold text-3xl text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
-            Vite + Typescript + TailwindCSS + GitHub Pages
-        </h1>
-    </main>
+<body class="font-poppins bg-c_n_Very_Light_Gray">
+    <div class="w-full min-h-screen items-center py-12 px-5 flex flex-col gap-16">
+        <header class="flex flex-col items-center">
+            <h1 class="font-extralight text-[2.4rem] text-c_n_Very_Dark_Blue">Reliable, efficient delivery</h1>
+            <h2 class="text-[2.4rem] font-semibold text-c_n_Very_Dark_Blue">Powered by Technology</h2>
+            <p class="text-c_n_Grayish_Blue md:max-w-[35rem] text-center pt-4">
+                Our Artificial Intelligence powered tools use millions of project data points
+                to ensure that your project is successful
+            </p>
+        </header>
+        <main class="md:max-w-[70rem] grid grid-cols-3 items-center justify-center gap-6">
+            <div class="w-full h-full flex items-center">
+                <div class="border-t-4 border-c_p_Cyan rounded-lg px-8 py-8 bg-white gap-3 flex flex-col shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
+                    <h3 class="text-c_n_Very_Dark_Blue font-semibold text-xl">Supervisor</h3>
+                    <p class="text-c_n_Grayish_Blue text-sm">Monitors activity to identify project roadblocks</p>
+                    <div class="w-full flex justify-end mt-6">
+                        <img src="/images/icon-supervisor.svg" alt="supervisor">
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col w-full h-full justify-center gap-6">
+                <div class="border-t-4 border-c_p_Red rounded-lg px-8 py-8 bg-white gap-3 flex flex-col shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
+                    <h3 class="text-c_n_Very_Dark_Blue font-semibold text-xl">Team Builder</h3>
+                    <p class="text-c_n_Grayish_Blue text-sm">Scans our talent network to create the optimal team for your project</p>
+                    <div class="w-full flex justify-end mt-6">
+                        <img src="/images/icon-team-builder.svg" alt="team builder">
+                    </div>
+                </div>
+                <div class="border-t-4 border-c_p_Orange rounded-lg px-8 py-8 bg-white gap-3 flex flex-col shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
+                    <h3 class="text-c_n_Very_Dark_Blue font-semibold text-xl">Karma</h3>
+                    <p class="text-c_n_Grayish_Blue text-sm">Regularly evaluates our talent to ensure quality</p>
+                    <div class="w-full flex justify-end mt-6">
+                        <img src="/images/icon-karma.svg" alt="karma">
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-full flex items-center">
+                <div class="border-t-4 border-c_p_Blue rounded-lg px-8 py-8 bg-white gap-3 flex flex-col shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
+                    <h3 class="text-c_n_Very_Dark_Blue font-semibold text-xl">Calculator</h3>
+                    <p class="text-c_n_Grayish_Blue text-sm">Uses data from past projects to provide better delivery estimates</p>
+                    <div class="w-full flex justify-end mt-6">
+                        <img src="/images/icon-calculator.svg" alt="calculator">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
     <script type="module" src="/src/main.ts"></script>
 </body>
 
